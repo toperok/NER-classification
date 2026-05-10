@@ -30,6 +30,7 @@ logs/
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
+NEREL_MultiTask_Notebook.ipynb
 
 # Sys files
 .DS_Store
