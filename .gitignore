@@ -10,7 +10,7 @@ wheels/
 .venv
 
 # Data
-sprint4_requirements.txt
+requirements.txt
 data/images
 data/*.png
 data/*.txt
