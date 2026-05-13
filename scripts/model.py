@@ -1,3 +1,8 @@
+import torch
+import torch.nn as nn
+import torch.functional as F
+from transformers import AutoModel
+
 class JointModel(nn.Module):
     
     def __init__(
