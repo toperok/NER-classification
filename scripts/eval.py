@@ -39,6 +39,7 @@ def evaluate(model, dataloader, device):
     
     return total_loss / len(dataloader), ner_f1, cls_f1
 
+
 def run_inference(batch, model, tokenizer, device, id2label, cls_labels_list):
     model.eval()
     
