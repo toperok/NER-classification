@@ -88,7 +88,7 @@
 * **Язык**: Python
 * **Базовая модель**: `DeepPavlov/rubert-base-cased` (Russian BERT)
 * **Архитектурные решения**: Multi-Task Learning, Mean + Max Pooling, INT8 Quantization
-* **Менеджер пакетов**: [uv](https://github.com)
+* **Менеджер пакетов**: [uv](https://github.com/astral-sh/uv)
 
 ---
 
@@ -118,6 +118,9 @@ nlp-multitask-platform/
 ## Быстрый старт
 
 1. **Клонирование репозитория и подготовка данных.**
+   ```bash
+   git clone https://github.com/toperok/NER-classification
+   ```
 2. **Установка инструмента `uv`:**
 
    ```bash
